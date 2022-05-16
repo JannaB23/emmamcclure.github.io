@@ -1,36 +1,104 @@
-<!DOCTYPE html>
-<html lang = "en" style="background-color: #003661">
-    <head>
-        <link rel="stylesheet" href="main.css">
-        <script src="https://use.fontawesome.com/45a3e39275.js"></script>
-
-    </head>
-
-    <body>
-        <div class="header" style="vertical-align: middle">
-               <img  class="img_header" src="assets/glasgow.jpg">
-               <h3 class="name">profile</h3>
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-10 col-xl-8 mx-auto">
+        <h2 class="h3 mb-4 page-title">Settings</h2>
+        <div class="my-4">
+            <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Profile</a>
+                </li>
+            </ul>
+            <form>
+                <div class="row mt-5 align-items-center">
+                    <div class="col-md-3 text-center mb-5">
+                        <div class="avatar avatar-xl">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="..." class="avatar-img rounded-circle" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h4 class="mb-1">Student</h4>
+                                <p class="small mb-3"><span class="badge badge-dark">University of Glasgow</span></p>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-7">
+                                <p class="text-muted">
+                                    Welcome to your Settings page! Below you can adjust which information is given to your peers when they connect their badges with yours!
+                                </p>
+                            </div>
+                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4" />
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname" class="form-control" placeholder="Brown" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" id="lastname" class="form-control" placeholder="Asher" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4">Instagram Tag</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="sophie_123" />
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress5">Snapchat Tag</label>
+                    <input type="text" class="form-control" id="inputAddress5" placeholder="sophie_123" />
+                </div>
+                <div class="form-group">
+                        <label for="inputCompany5">Course Name</label>
+                        <input type="text" class="form-control" id="inputCompany5" placeholder="Psychology" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputState5">From</label>
+                        <select id="inputState5" class="form-control">
+                            <option selected="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip5">Zip</label>
+                        <input type="text" class="form-control" id="inputZip5" placeholder="98232" />
+                    </div>
+                </div>
+                <hr class="my-4" />
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="inputPassword4">Old Password</label>
+                            <input type="password" class="form-control" id="inputPassword5" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword5">New Password</label>
+                            <input type="password" class="form-control" id="inputPassword5" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword6">Confirm Password</label>
+                            <input type="password" class="form-control" id="inputPassword6" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mb-2">Password requirements</p>
+                        <p class="small text-muted mb-2">To create a new password, you have to meet all of the following requirements:</p>
+                        <ul class="small text-muted pl-4 mb-0">
+                            <li>Minimum 8 character</li>
+                            <li>At least one special character</li>
+                            <li>At least one number</li>
+                            <li>Can’t be the same as a previous password</li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Change</button>
+            </form>
         </div>
-    </body>
+    </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-<div class="navbar" class="light-theme">
-    <a href="profile.html"><img src="assets\profile.png" style="height: 110px; width: 110px;"></a>
-    <a href=" "><img src="assets\line.png" style="height: 130px; width: 90px;"></a>
-    <a href="files.html"><img src="assets\files.png" style="height: 110px; width: 110px;"></a>
-    <a href=" "><img src="assets\line.png" style="height: 130px; width: 90px;"></a>
-    <a href="homepage.html"><img src="assets\home.png" style="height: 110px; width: 110px;"></a>
-    <a href=" "><img src="assets\line.png" style="height: 130px; width: 90px;"></a>
-    <a href="requests.html"><img src="assets\notifications.png" style="height: 110px; width: 110px;"></a>
-    <a href=" "><img src="assets\line.png" style="height: 130px; width: 90px;"></a>
-    <a href="friendsList.html"><img src="assets\users.png" style="height: 110px; width: 110px;"></a>
 </div>
